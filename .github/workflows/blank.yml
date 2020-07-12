@@ -22,3 +22,4 @@ jobs:
         uses: dante-ev/latex-action@master
         with:
           root_file: resume.tex
+          args: -outdir=.
