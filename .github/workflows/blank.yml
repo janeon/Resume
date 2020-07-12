@@ -19,7 +19,9 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: vinay0410/tectonic-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          root_file: resume.tex
-#           args: -pdf -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -outdir=.
+          tex_path: 'resume.tex'
+          push: 'yes'
