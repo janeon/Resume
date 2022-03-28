@@ -1,6 +1,9 @@
 \documentclass{resume}
 \usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} 
 \usepackage{hyperref}
+\usepackage{url}
+\urldef\myurl\url{http://www.cs.cmu.edu/~NatProg/papers/DTSHPS%20paper%207%20-%20one-page-summary-with-references%20v2.pdf}
+\urldef\myurl2\url{https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/42857/DTSHPS18-Proceedings-final%20v2.pdf}
 
 \newcommand{\tab}[1]{\hspace{.266\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}} 
@@ -30,16 +33,23 @@ With a Concentration in Cognitive Science \hfill {(Major) GPA: (3.77) 3.71}
 %-----------------------------------------------------------------------------------------------
 
 \begin{rSection}{Research \& Work, Experiences}
-{\bf Supporting Online Freelancers and Open Source Moderators} \hfill  {\em Fall 2020 - ongoing} \\
-{\it Advised by Haiyi Zhu} \hfill { Pittsburgh, PA} \\
-% {Conducted literature review on practices of gig workers who complete highly specialized tasks} \\
-{Analyze freelancer.com chat data to reveal communication practices and strategies} \\
-{Model early freelancer trajectories to identify likelihood points of dropoff} \\
-{Conduct qualitative interviews to examine open source toxicity moderation strategies and bot interactions}
 
-{\bf Data science Consultant at Upwork Inc.} \hfill  {\em Summer 2021 - ongoing} \\
+{\bf Data Science Consultant at Upwork Inc.} \hfill  {\em Summer 2021 - ongoing} \\
 {\it Supervised by Sibo Lu} \hfill {Remote} \\
-{Improve Fairness within the platform} 
+{Working on measuring and improving fairness within the platform (further details are protected under NDA).} 
+
+{\bf Moderation and Automation: Open Source Toxicity Management} \hfill  {\em Spring 2021 - ongoing} \\
+{\it Advised by: Haiyi Zhu \& Laura Dabbish} \hfill {Remote} \\
+{Recruit interviewees from Github to discuss open source toxicity moderation strategies and bot interactions}
+{Conduct qualitative interviews and mentored 2 undergraduate research assistants.}
+
+{\bf Personalization versus Standardization Gig Worker Strategies} \hfill  {\em Fall 2020 - Sept 2021} \\
+{\it Collaborators: Haiyi Zhu, Gord Burtch, and Kevin (Hong) Li} \hfill { Pittsburgh, PA} \\
+% {Conducted literature review on practices of gig workers who complete highly specialized tasks} \\
+{Empirically analyzed freelancer.com chat data to reveal communication  strategies.} \\
+{Manuscript of CHI submission available upon request.}
+% {Model early freelancer trajectories to identify likelihood points of dropoff} \\
+% {Conduct qualitative interviews to examine open source toxicity moderation strategies and bot interactions}
 
 {\bf Support Portal at IBM} \hfill  {\em Summer 2020} \\
 {\it Software Enginner Intern on IBM's Toolbox Team} \hfill { Raleigh, NC} \\
@@ -70,13 +80,17 @@ Assisted in making design improvements for a nanoparticle separation channel aft
 Used Jupyter Notebook to fit polarization-analyzed small-angle neutron-scattering data from 16 conditions \\
 Analyzed resulting trends to learn about behavior and interactions of the manganese ferrite particles 
 
+\textbf{Technical languages:} \hspace{11em} {\underline{Advanced:} Python, R, React \& AngularJS, LaTex} \\
+{\underline{Familiar:} Git, {$C^{++}$}, CSS/HTML, Swift, Java} \hspace{11em} {\underline{Beginner:} Go, GraphQL, TypeScript} 
+
 \end{rSection}
 
 \begin{rSection}{Publications}
 \begin{enumerate}
+    \item \textbf{Jane Hsieh}, Yili Hong, Gordon Burtch, Haiyi Zhu, ``A Little Too Personal: Effects of Standardization versus Personalization on Job Acquisition, Work Completion, and Revenue for Online Freelancers", \textit{CHI Conference on Human Factors in Computing Systems, CHI ’22}, New Orleans, LA, April 29-May 5, 2022, \href{}{Preprint}.
     \item Michael Xieyang Liu, \textbf{Jane Hsieh}, Nathan Hahn, Angelina Zhou, Emily Deng, Shaun Burley, Cynthia Taylor, Aniket Kittur, Brad A. Myers, ``Unakite: Scaffolding Developers’ Decision Making About Trade-offs through Capturing and Organizing Web Resources", \textit{ACM Symposium on User Interface Software and Technology, UIST'19}, New Orleans, LA, October 20-23, 2019. pp. 67-80. \href{https://dl.acm.org/citation.cfm?id=3347908}{ACM DL} and \href{http://www.cs.cmu.edu/~NatProg/papers/p67-liu-Unakite-UIST.pdf}{local pdf}.\\
     \textbf{Best Paper Honorable Mention Award} from the ACM Symposium on User Interface Software and Technology, UIST'19 (top 6 out of 93 accepted papers). 
-    \item Michael Xieyang Liu, Nathan Hahn, Angelina Zhou, Shaun Burley, Emily Deng, \textbf{Jane Hsieh}, Aniket Kittur and Brad A. Myers, ``UNAKITE: Support Developers for Capturing and Persisting Design Rationales When Solving Problems Using Web Resources", \textit{DTSHPS'18 Workshop on Designing Technologies to Support Human Problem Solving} (\href{https://www.cs.washington.edu/dtshps2018/index.html}{DTSHPS'18}) at VL/HCC'2018. Oct. 1, 2018. p. 25. \href{http://www.cs.cmu.edu/~NatProg/papers/DTSHPS%20paper%207%20-%20one-page-summary-with-references%20v2.pdf}{extended abstract} or \href{https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/42857/DTSHPS18-Proceedings-final%20v2.pdf}{full proceedings}.
+    \item Michael Xieyang Liu, Nathan Hahn, Angelina Zhou, Shaun Burley, Emily Deng, \textbf{Jane Hsieh}, Aniket Kittur and Brad A. Myers, ``UNAKITE: Support Developers for Capturing and Persisting Design Rationales When Solving Problems Using Web Resources", \textit{DTSHPS'18 Workshop on Designing Technologies to Support Human Problem Solving} (\href{https://www.cs.washington.edu/dtshps2018/index.html}{DTSHPS'18}) at VL/HCC'2018. Oct. 1, 2018. p. 25. \href{\myurl}{extended abstract} or \href{\myurl2}{full proceedings}.
     \item \textbf{Jane Hsieh}, Michael Xieyang Liu, Brad A. Myers, Aniket Kittur, ``Poster: An Exploratory Study of Web Foraging to Understand and Support Programming Decisions," \textit{2018 IEEE Symposium on Visual Languages and Human-Centric Computing} (VL/HCC'18), October 1 - 4, 2018, Lisbon, Portugal. pp. 305-306. \href{https://ieeexplore.ieee.org/document/8506517}{IEEE DL} and \href{http://www.cs.cmu.edu/~NatProg/papers/p305-hsieh.pdf}{local pdf}.
     \item Yumi Ijiri, Kathryn L. Krycka, Ian Hunt-Isaak, Hillary Pan, \textbf{Jane Hsieh}, Julie A. Borchers, James J. Rhyne, Samuel D. Oberdick, Ahmed Abdelgawad, Sarah A. Majetich, ``Correlated spin canting in ordered core-shell Fe$_3$O$_4$/Mn$_x$Fe$_{3-x}$O$_4$ nanoparticle polycrystalline assemblies," \textit{Physical Review B} 99(9). March 18, 2019. p. 094421. \href{https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.094421}{APS DL} and \href{https://janeon.github.io/assets/img/PhysRevB.99.094421.pdf}{local pdf}.
 
@@ -121,77 +135,72 @@ Recruit participants and plan for winter retreat to provide students with resour
 {\bf Oberlin Workshop \& Learning Sessions (OWLS) Leader for Algorithms} \hfill {\em Fall 2018} \\
 { Attended class to plan and lead interactive, non-traditional workshops (weekly)} 
 
-{\bf ACM ICPC East Central NA Regional Contest}\hfill{\em Fall 2017} \\
-{Received Honorary Mention} 
+% {\bf ACM ICPC East Central NA Regional Contest}\hfill{\em Fall 2017} \\
+% {Received Honorary Mention} 
 
 {\bf Advanced Chinese Drill Session Teacher} \hfill {\em Spring 2017} \\
 { Created lesson plans (after attending class) to lead weekly drills to help students improve speaking fluency}
 
-\textbf{Technical languages:} \hspace{11em} {\underline{Advanced:} Python, Javascript (React \& Angular), LaTex} \\
-{\underline{Familiar:} Git, {$C^{++}$}, CSS/HTML, Swift, Java} \hspace{11em} {\underline{Beginner:} Go, GraphQL, TypeScript} 
+% \textbf{Spoken languages: }{Mandarin, Shanghainese, Spanish} 
 
-\textbf{Spoken languages: }{Mandarin, Shanghainese, Spanish} 
+% {\bf Other interests: }{Violin, running, rock climbing, baking, reading}
+% \end{rSection}
 
-{\bf Other interests: }{Violin, running, rock climbing, baking, reading}
-\end{rSection}
+% % \begin{rSection} {Other Projects}
+% % {\bf Automated Lab Helper (AI project)
+% % }\hfill  {\em Spring 2019} \\
+% % Created program that lints code, sorts errors and recommends solutions for beginning CS students at Oberlin
 
-\begin{rSection} {Other Projects}
-{\bf Automated Lab Helper (AI project)
-}\hfill  {\em Spring 2019} \\
-Created program that lints code, sorts errors and recommends solutions for beginning CS students at Oberlin
+% % {\bf Frontend Dev for Conceptum: a Question Repository for Educators}\hfill  {\em Winter - Spring 2019} \\
+% % Implemented Angular interface components for an iterative question development site designed for professors
 
-{\bf Frontend Dev for Conceptum: a Question Repository for Educators}\hfill  {\em Winter - Spring 2019} \\
-Implemented Angular interface components for an iterative question development site designed for professors
+% % {\bf Taskat (HCI project)
+% % }\hfill  {\em Fall 2019} \\
+% % Designed and implemented {React} Electron desktop app to help users to record, and track time of tasks
 
-{\bf Taskat (HCI project)
-}\hfill  {\em Fall 2019} \\
-Designed and implemented {React} Electron desktop app to help users to record, and track time of tasks
+% % {\bf Star and Galaxy Clustering (Systems project)
+% % }\hfill {\em Spring 2018} \\
+% % {Implemented K-means in {$C^{++}$}, used SIMBAD catalogue to query $\sim$ 1000 stars and gnuplot as frontend}
 
-{\bf Star and Galaxy Clustering (Systems project)
-}\hfill {\em Spring 2018} \\
-{Implemented K-means in {$C^{++}$}, used SIMBAD catalogue to query $\sim$ 1000 stars and gnuplot as frontend}
+% % \textbf{Food Optimization and Peer Tutoring Messaging apps}\hfill {\em Fall 2018 \& Winter 2017} \\
+% % { Developed prototype iOS apps using Swift 2 \& 3} \hfill { PennApps \& Oberlin}
+% % \end{rSection}
 
-\textbf{Food Optimization and Peer Tutoring Messaging apps}\hfill {\em Fall 2018 \& Winter 2017} \\
-{ Developed prototype iOS apps using Swift 2 \& 3} \hfill { PennApps \& Oberlin}
-\end{rSection}
+% \begin{rSection}{Awards \& Honors} 
+% {\bf 2020 R.J. Thomas Award for Outstanding Computer Science Student} \hfill{\$500} \\
+% Awarded per annum to one senior in the Computer Science Department
 
-\begin{rSection}{Awards \& Honors} 
-{\bf 2020 R.J. Thomas Award for Outstanding Computer Science Student} \hfill{\$500} \\
-Awarded per annum to one senior in the Computer Science Department
+% {\bf Clare Boothe Luce Scholarship at Oberlin College} \hfill{\$38,808} \\
+% Awarded per annum to a woman studying in a scientific field
 
-{\bf Clare Boothe Luce Scholarship at Oberlin College} \hfill{\$38,808} \\
-Awarded per annum to a woman studying in a scientific field
+% {\bf 2018 Computing Research Association for Women GHC Research Scholarship}\hfill{\$500} 
 
-{\bf 2018 Computing Research Association for Women GHC Research Scholarship}\hfill{\$500} 
+% {\bf John F. Oberlin Scholarship } \hfill{\$69,000}
 
-{\bf John F. Oberlin Scholarship } \hfill{\$69,000}
+% {\bf Oberlin College Grant } \hfill {\$23,538}
 
-{\bf Oberlin College Grant } \hfill {\$23,538}
+% {\bf Oberlin ASG Endowed Scholarship} \hfill {\$20,324}
 
-{\bf Oberlin ASG Endowed Scholarship} \hfill {\$20,324}
+% {\bf STRONG Scholar}\hfill{\$2,500} \\
+%  Researched in 2016 and mentored 2017's cohort of students from underrepresented backgrounds
+% \end{rSection}
 
-{\bf STRONG Scholar}\hfill{\$2,500} \\
- Researched in 2016 and mentored 2017's cohort of students from underrepresented backgrounds
-\end{rSection}
+% \begin{rSection} {Conferences \& Workshops Attended}
 
-\begin{rSection} {Conferences \& Workshops Attended}
+% {\bf Symposium on Visual Language and Human-Centric Computing} \hfill {October 2018} \\
+% Presented poster and short talk. Submitted extended abstract and workshop paper \hfill {\em Lisbon, Portugal}
 
-{\bf Symposium on Visual Language and Human-Centric Computing} \hfill {October 2018} \\
-Presented poster and short talk. Submitted extended abstract and workshop paper \hfill {\em Lisbon, Portugal}
+% {\bf Grace Hopper Celebration} \hfill {Fall 2018} \\
+% Research scholar with the Computing Research Association for Women \hfill {\em Houston, Texas}
 
-{\bf Grace Hopper Celebration} \hfill {Fall 2018} \\
-Research scholar with the Computing Research Association for Women \hfill {\em Houston, Texas}
+% {\bf Ohio Summer Research Symposium} \hfill {July 2017}\\
+% Gave talk on modeling PASANS data of Manganese Ferrite Nanoparticles \hfill {\em Ohio Wesleyan University}
 
-{\bf Ohio Summer Research Symposium} \hfill {July 2017}\\
-Gave talk on modeling PASANS data of Manganese Ferrite Nanoparticles \hfill {\em Ohio Wesleyan University}
-
-{\bf Celebration of Undergraduate Research} \hfill {Oberlin, OH} \\
- {- Poster: An Exploratory Study of Web Foraging to Understand \& Support Programming Decisions}\hfill {\em 2018} 
+% {\bf Celebration of Undergraduate Research} \hfill {Oberlin, OH} \\
+%  {- Poster: An Exploratory Study of Web Foraging to Understand \& Support Programming Decisions}\hfill {\em 2018} 
  
- {- Poster: Determining the Magnetic Structure of Ferrite Nanoparticles} \hfill {\em 2017} 
+%  {- Poster: Determining the Magnetic Structure of Ferrite Nanoparticles} \hfill {\em 2017} 
  
- {- Poster: Improving the Design of a Magnetic Nanoparticle Separation Channel} \hfill {\em 2016}
+%  {- Poster: Improving the Design of a Magnetic Nanoparticle Separation Channel} \hfill {\em 2016}
 \end{rSection}
-
-
 \end{document}
