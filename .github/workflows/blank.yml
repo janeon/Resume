@@ -1,7 +1,6 @@
-on:
-  push:
-    branches: [ master ]
-    
+name: Build LaTeX document
+on: [push]
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build_latex"
@@ -13,16 +12,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Compile Resume
-        uses: vinay0410/tectonic-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: dante-ev/latex-action@latest
         with:
-          tex_path: 'resume.tex'
-          push: 'yes'
-      - name: Compile CV
-        uses: vinay0410/tectonic-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tex_path: 'cv.tex'
-          push: 'yes'
+          root_file: 'resume.tex'
+    
