@@ -1,7 +1,4 @@
 # Résumé
 
-This is the Github repository that is integrated with the Overleaf project from my resume
-
-https://www.overleaf.com/read/gmxnbmbfqwrx
-
-It also uses the Github Action ## insert action ## to generate a PDF of the resume that then gets fed into my personal website
+This repo integrates with Overleaf resume https://www.overleaf.com/read/gmxnbmbfqwrx and autogenerates a PDF that is linked on my personal website
+https://janeon.github.io/Resume/resume.pdf
